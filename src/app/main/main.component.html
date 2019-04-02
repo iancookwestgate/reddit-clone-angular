@@ -1,0 +1,21 @@
+<app-nav></app-nav>
+<div class="container">
+  <div class="posts" *ngFor="let post of posts" (click)="goToDetailPage(post)">
+    <!-- <p>{{post.upvotes}}k</p> -->
+    <div class="topbar">
+      <strong><p>{{post.source}}</p></strong>
+      <span>- {{post.author}}</span>
+    </div>
+    <div id="title">
+      <h4>{{post.title}}</h4>
+    </div>
+    <div class="postImage">
+      <img class="picture" src={{post.image}} alt="">
+    </div>
+    <div id="bottomBar">
+      <p>{{post.bottomBar}}</p>
+      <p>Share</p>
+      <p>Save</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<app-nav></app-nav>
+<div class="container">
+  <div class="posts" *ngFor="let selfpost of selfposts">
+    <!-- <p>{{post.upvotes}}k</p> -->
+    <div class="topbar">
+      <strong><p>{{selfpost.title}}</p></strong>
+    </div>
+    <div id="title">
+      <span>{{selfpost.user}}</span>
+      <p>- {{selfpost.postedby}}</p>
+    </div>
+    <div id="bottomBar">
+      <span>{{selfpost.bottombar}}</span>
+    </div>
+  </div>
+</div>

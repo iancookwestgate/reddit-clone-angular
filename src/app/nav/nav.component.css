@@ -1,0 +1,33 @@
+
+#logo{
+  width: 200px;
+}
+
+.nav-icon{
+  width: 20px;
+}
+nav{
+    border-bottom: solid lightgray 1px;
+}
+.nav-bar-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid lightgray 1px;
+}
+
+.nav-bar-bottom{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+  width: 350px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+
+}
+
+.nav-bottom-left{
+  border-right: solid lightgray 1px;
+  padding-right: 30px;
+}
